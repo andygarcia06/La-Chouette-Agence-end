@@ -1,0 +1,140 @@
+body {
+	margin:0;
+}
+header{
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+.container {
+	width:100%;
+}
+
+#bloc-6 {
+	width:100%;
+}
+
+#bloc-général {
+	width:100%;
+	display:flex;
+	flex-direction:column;
+    margin:0;
+
+
+
+}
+
+#bloc-contact {
+	width:100%;
+	text-align:center;
+
+}
+
+footer h3 {
+	margin-bottom:04%;
+}
+
+footer a {
+	margin-top:15%;
+	font-size:1.5em;
+}
+
+
+#header{
+	width:100%;
+	margin:auto;
+}
+
+#bloc-6 p {
+	font-size:1.6rem
+}
+
+#bloc-6 .col-12-sm {
+	background-color:grey
+}
+
+#bloc-7 .bloc-lg .row .col-sm-6 {
+	display:flex;
+	flex-flow:row 
+	nowrap;flex:1 1 auto;
+	justify-content:center;
+	padding:1rem 3rem
+}
+
+
+.form-group {
+	grid-area:form
+}
+
+
+.contact {
+	grid-area:contact
+}
+
+
+#bloc-7 .bloc-lg {
+	padding-bottom:3%
+}
+
+
+
+#bloc-7 .bloc-lg .row { 
+	display:grid
+} 
+
+.col-sm-6 {
+	width:auto!important
+}
+
+#bloc-7 .bloc-lg .row .col-sm-6 p {
+	font-size:1.6rem;
+	padding-top:1rem;
+	line-height:2.2rem 
+}
+
+
+#bloc-7 .bloc-lg form {
+	padding-right:0
+}
+
+.tight-width-whitespace {
+	font-size:1.4rem
+}
+
+.blocsocialmod {
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		justify-content:space-between;
+		padding-top:3%;
+
+}
+
+.blocsocialmod a {
+	color:white
+}
+
+.contact {
+	padding-top:8%;
+}
+
+#mybutton:hover {
+    background-color: #f2976c;
+    color:white;
+    box-shadow: 2px 2px 2px grey
+}
+
+footer {
+	background-color: #f2976c;
+	height:100px;
+}
+
+@media (max-width: 767px) {
+
+
+	.page-container {
+		font-size:90%;
+	}
+}
+
+
